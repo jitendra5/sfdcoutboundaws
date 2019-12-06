@@ -1,0 +1,14 @@
+{
+  "name": "awsbackupsolution",
+  "version": "1.0.1",
+  "description": "aws backup solution for salesforce",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Jitendra Josyula",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
