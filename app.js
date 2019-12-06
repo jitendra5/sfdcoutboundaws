@@ -919,7 +919,9 @@ app.post('/api1.0/cloudbyz/getRecordCount',urlencodedParser, function (req, res)
     main();
     //res.send(JSON.stringify({'Status': 'SFDC-DynamoDB REST-API Running in AWS','Response':'200'}));
 });
-http.createServer( app ).listen( process.env.PORT || 5000, function (){
-  logger.debug( '######Cloudbyz Express server listening on port: ' + app.get( 'port' ));
+/*  logger.debug( '######Cloudbyz Express server listening on port: ' + app.get( 'port' ));
+});*/
+app.listen(process.env.PORT || 5000, function () {
+  console.log('Example app listening on port 5000!');
 });
 
